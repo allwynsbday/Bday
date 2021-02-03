@@ -403,9 +403,13 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/imgs/dad2.jpg") top center;
+  background: url("../img/imgs/col3.png") top center;
   background-size: cover;
   position: relative;
+}
+
+#hero .aos-animate {
+  transition-delay: .1s;
 }
 
 #hero:before {
