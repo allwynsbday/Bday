@@ -1641,6 +1641,46 @@ section {
 }
 
 
+@media (max-width: 767px) {
+  .caro .caro-wrap {
+    padding-left: 0;
+  }
+  .caro .caro-item {
+    padding: 30px;
+    margin: 15px;
+  }
+  .caro .caro-item .caro-img {
+    position: static;
+    left: auto;
+  }
+
+  .caro .car-container{
+    width: 75%;
+  }
+}
+@media (max-width: 500px) {
+  .caro .car-container{
+    width: 90%;
+  }
+}
+
+.caro .car-container{
+  margin:0 auto; 
+  width: 50%
+}
+
+.caro .carousel-control-prev{
+  opacity: 0;
+}
+.caro .carousel-control-next{
+  opacity: 0;
+}
+
+.nav-link{
+  color: #ffc451;
+}
+
+
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
